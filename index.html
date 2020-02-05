@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>ShareRide</title>
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,900|Ubuntu&display=swap" rel="stylesheet">
+
+  <!-- CSS Style Sheets -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/styles.css">
+
+  <!-- Font Awesome -->
+  <script defer src="https://use.fontawesome.com/releases/v5.12.0/js/all.js" integrity="sha384-S+e0w/GqyDFzOU88KBBRbedIB4IMF55OzWmROqS6nlDcXlEaV8PcFi4DHZYfDk4Y" crossorigin="anonymous"></script>
+
+  <!-- BootStrap Scripts -->
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+  <section id="title">
+    <!--Section is used to divide a particular content / section on page-->
+
+    <div class="container-fluid">
+      <!-- container-fluid is used to hold the contents in this div tag and it is responsive it
+  adopts the size of screen automatically so we use it. It occupies full width of the page so we use padding here-->
+
+      <!-- Nav Bar -->
+      <nav class="navbar navbar-expand-lg navbar-dark">
+
+        <a class="navbar-brand" href="#">
+          ShareRide
+          <img src="images/steering.png" width="30" height="30" class="d-inline-block align-top" alt="">
+        </a>
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+          <ul class="navbar-nav ml-auto">
+            <li class="navbar-item">
+              <a class="nav-link" href="index.html#AppPriview">App Preview</a>
+            </li>
+            <li class="navbar-item">
+              <a class="nav-link" href="index.html#pricing">Pricing</a>
+            </li>
+            <li class="navbar-item">
+              <a class="nav-link" href="index.html#cta">Download</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+      <!-- Title -->
+      <div class="row">
+
+        <div class="col-lg-6">
+          <h1>Driving alone hurts your wallet and your health.
+            <br> So Join a car sharing club today.
+            <br>Let’s ShareRide <i class="fas fa-hands-helping"></i>
+
+          </h1>
+          <!-- Below fab class items are FontAwesome Imported icons -->
+          <button type="button" style="margin-left:12%" class="btn btn-dark btn-lg download-button"> <i class="fab fa-apple"></i> Download</button>
+          <button type="button" class="btn btn-outline-light btn-lg download-button"> <i class="fab fa-google-play"></i> Download</button>
+
+        </div>
+
+        <div class="col-lg-6 col-md-6 col-sm-6">
+          <img class="title-image-iphone" src="images/iphone6.png" alt="iphone-mockup">
+        </div>
+
+
+      </div>
+
+  </section>
+
+  </div> <!-- Container-fluid div closing tag -->
+
+
+  <!-- Features -->
+
+  <section id="features-complete">
+    <div class="row">
+
+      <div class="features-individual col-lg-4">
+        <i class="features-icon fas fa-check-circle fa-4x"></i>
+        <h3>Choice.</h3>
+        <p>We go everywhere. Literally thousands of destinations. No station required</p>
+      </div>
+
+      <div class="features-individual col-lg-4">
+        <i class="features-icon fas fa-id-card fa-4x"></i>
+        <h3>Carpool with confidence</h3>
+        <p>Government ID verification adds another level of security to member profiles.</p>
+      </div>
+
+      <div class="features-individual col-lg-4">
+        <i class="features-icon fas fa-car-alt fa-4x"></i>
+        <h3>Get going faster</h3>
+        <p>No need to travel across town, catch a ride leaving near you.</p>
+      </div>
+
+      <div class="features-individual col-lg-4">
+        <i class="features-icon fas fa-dollar-sign fa-4x"></i>
+        <h3>Pocket friendly</h3>
+        <p>Take a ride at affordable prices.</p>
+      </div>
+
+      <div class="features-individual col-lg-4">
+        <i class="features-icon fas fa-tree fa-4x"></i>
+        <h3>Eco friendly</h3>
+        <p>Take a ride on the green side.</p>
+      </div>
+
+      <div class="features-individual col-lg-4">
+        <i class="features-icon fas fa-gas-pump fa-4x"></i>
+        <h3>Save Fuel</h3>
+        <p>The less your burn.. the more you earn!</p>
+      </div>
+
+    </div>
+
+  </section>
+
+
+  <!-- Testimonials -->
+
+  <section id="testimonials">
+
+    <div id="testimonial-carousel" class="carousel slide" data-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <h2 class="carousel-text">I am from a village where there is no proper public transport.But after ShareRide came to my village now we feel like there is no need of public transport.</h2>
+          <img class="testimonial-image" src="images/mahesh.jpg" alt="mahesh-profile">
+          <em>Mahesh Reddy, AP</em>
+        </div>
+        <div class="carousel-item">
+          <h2 class="carousel-text">Home-Office-Home.<br> Connect On-the-Go.</h2>
+          <img class="testimonial-image" src="images/vishal.jpg" alt="vishal-profile">
+          <em>Vishal Singh, UP</em>
+        </div>
+        <div class="carousel-item">
+          <h2 class="carousel-text">I Love ShareRide.<br>Easy Rides and Pocket friendly.</h2>
+          <img class="testimonial-image" src="images/chaitu.png" alt="chaitu-profile">
+          <em>Chaitu, AP</em>
+        </div>
+
+      </div>
+      <a class="carousel-control-prev" href="#testimonial-carousel" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+      </a>
+      <a class="carousel-control-next" href="#testimonial-carousel" role="button" data-slide="next">
+        <span class="carousel-control-next-icon"></span>
+      </a>
+    </div>
+
+
+  </section>
+
+
+  <!-- Press -->
+
+  <section id="press">
+    <img class="press-images" src="images/techcrunch.png" alt="tc-logo">
+    <img class="press-images" src="images/tnw.png" alt="tnw-logo">
+    <img class="press-images" src="images/bizinsider.png" alt="biz-insider-logo">
+    <img class="press-images" src="images/mashable.png" alt="mashable-logo">
+
+  </section>
+
+
+  <!-- Pricing -->
+
+  <section id="pricing">
+
+    <h2 class="pricing-text">A Plan for Every Customers Need</h2>
+    <p class="pricing-text">Simple and affordable price plans for you.</p>
+
+    <div class="row">
+
+      <div class="col-lg-4 col-md-6">
+        <div class="card">
+          <div class="card-header">
+            <h3>Students</h3>
+          </div>
+          <div class="card-body">
+            <h2>Free</h2>
+            <p>1 Ride Per Week</p>
+            <p>No Messages or Chat</p>
+            <p>Unlimited App Usage</p>
+            <button type="button" class="btn btn-lg btn-outline-dark btn-block">Sign Up</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-md-6">
+        <div class="card">
+          <div class="card-header">
+            <h3>Elite</h3>
+          </div>
+          <div class="card-body">
+            <h2>$49 / Weeek</h2>
+            <p>7 Rides per Week</p>
+            <p>Unlimited Messages</p>
+            <p>Unlimited App Usage</p>
+            <button type="button" class="btn btn-lg btn-dark btn-block">Sign Up</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-4">
+        <div class="card">
+          <div class="card-header">
+            <h3>Prime</h3>
+          </div>
+          <div class="card-body">
+            <h2>$69 / Week</h2>
+            <p>Pirority Listing</p>
+            <p>14 Rides per Week</p>
+            <p>Unlimited Messages</p>
+            <p>Unlimited App Usage</p>
+            <button type="button" class="btn btn-lg btn-dark btn-block">Sign Up</button>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+
+  <!-- Call to Action -->
+
+  <section id="cta">
+
+    <h3 class="cta-text">Make a little money. Save a little money. <i class="fas fa-wallet"></i></h3>
+    <button type="button" class="btn btn-dark btn-lg download-button"> <i class="fab fa-apple"></i> Download</button>
+    <button type="button" class="btn btn-outline-light btn-lg download-button"> <i class="fab fa-google-play"></i> Download</button>
+
+  </section>
+
+  <section id="AppPriview">
+
+    <h3 class="preview-text">App Preview  <i class="fas fas fa-mobile-alt"></i></h3><br>
+    <img class="previewApp" src="images/welcome.png" />
+    <img class="previewApp" src="images/signupLayout.png" />
+    <img class="previewApp" src="images/loginLayout.png" />
+    <img class="previewApp" src="images/Homepage.png" />
+
+  </section>
+
+
+  <!-- Footer -->
+
+  <footer id="footer">
+    <a href="mailto:sajidlpu1@gmail.com"><i class="social-media fas fa-envelope fa-2x" style="color:black"></i></i></i></a>
+    <a href="https://www.facebook.com/profile.php?id=100004563371794"><i class="social-media fab fa-facebook-f fa-2x" style="color:black"></i></i></a>
+    <a href="https://www.instagram.com/syed_sajidali_/"><i class="social-media fab fa-instagram fa-2x" style="color:black"></i></i></i></a>
+    <a href="https://twitter.com/Sayed_Sajid_Ali"><i class="social-media fab fa-twitter fa-2x" style="color:black"></i></i></i></a>
+
+
+    <p style="font-size:1.2rem"><i class="fas fa-copyright"></i> Copyright 2020 ShareRide App <br><br>App developers: Sayed Sajid Ali | Vishal Singh | Mahesh Reddy | Rithik  <br /> Webpage Designed by: Sayed Sajid Ali | Chaitanya Knachumarthi</p>
+
+
+  </footer>
+
+
+</body>
+
+</html>
